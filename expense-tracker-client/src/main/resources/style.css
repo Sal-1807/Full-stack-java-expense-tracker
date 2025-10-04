@@ -1,0 +1,169 @@
+/* for debugging */
+/* Label, TextField, Button, PasswordField, ComboBox, DatePicker{
+    -fx-border-width: 1px;
+    -fx-border-color: #fff;
+} */
+
+/* VBox {
+    -fx-border-width: 1px;
+    -fx-border-color: red;
+}
+
+HBox {
+    -fx-border-width: 2px;
+    -fx-border-color: rgb(12, 28, 12);
+}
+
+GridPane {
+    -fx-border-width: 1px;
+    -fx-border-color: green;
+} */
+
+/* generic classes */
+Button{
+    -fx-cursor: hand;
+}
+
+.combo-box .list-cell:hover,
+Button:hover{
+    -fx-opacity: 0.5;
+}
+
+/* to solve the issue with removing the default background color of the scrollpane */
+ScrollPane,
+ScrollPane > .viewport {
+    -fx-background-color: #0d340d;
+}
+
+/* table */
+.table-view .column-header{
+    -fx-background-color: #0d340d;
+}
+
+.table-view .column-header .label{
+    -fx-background-color: #0d340d;
+}
+
+.table-view .scroll-bar:horizontal,
+.table-view .scroll-bar:vertical {
+    -fx-opacity: 0;
+    -fx-pref-width: 0;
+    -fx-pref-height: 0;
+}
+
+/* bar chart */
+.default-color0.chart-legend-item-symbol{
+    -fx-background-color: #33ba2f;
+}
+
+.default-color1.chart-legend-item-symbol{
+    -fx-background-color: #ba2f2f;
+}
+
+
+
+/* text */
+.text-size-lg{
+    -fx-font-size: 36px;
+}
+
+.text-size-md{
+    -fx-font-size: 28px;
+}
+
+.text-size-sm{
+    -fx-font-size: 18px;
+}
+
+.text-white{
+    -fx-text-fill: #fff;
+}
+
+.text-light-red{
+    -fx-text-fill: #ba2f2f;
+}
+
+.text-light-green{
+    -fx-text-fill: #00ff00;
+}
+
+.text-light-gray2{
+    -fx-text-fill: #a29999;
+}
+
+.text-light-gray{
+    -fx-text-fill: #BEB9B9;
+}
+
+.text-weight-700{
+    -fx-font-weight: 700;
+}
+
+/* background colors */
+.bg-light-blue{
+    -fx-background-color: #866d0a;
+}
+
+.bg-light-red{
+    -fx-background-color: #da363f;
+}
+
+/* text decorations */
+.text-underline{
+    -fx-underline: true;
+}
+
+/* padding */
+.padding-10px{
+    -fx-padding: 10px;
+}
+
+/* border */
+.rounded-border{
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+
+.border-green{
+    -fx-border-width: 5px;
+    -fx-border-color: #1b7e2d;
+}
+
+/* custom classes */
+.main-background{
+    -fx-background-color: #041c08;
+}
+
+.header{
+    -fx-font-size: 96px;
+    -fx-font-weight: 300;
+}
+
+.field-background2{
+    -fx-background-color: #0d340d;
+}
+
+.field-background{
+    -fx-background-color: #196832;
+}
+
+
+.link-text{
+    -fx-cursor: hand;
+}
+
+.link-text:hover{
+    -fx-text-fill: #4265c7;
+}
+
+.dashboard-padding{
+    -fx-padding: 33px 43px;
+}
+
+.combo-box .list-cell,
+.date-picker .text-field{
+    -fx-background-color: #196832;
+    -fx-text-fill: #b1b1b1;
+}
+
+
