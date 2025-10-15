@@ -1,31 +1,30 @@
-# Full Stack Expense Tracker
+# 💰 Expense Tracker (with Pie Chart Visualization)
 
-## 📌 Project Overview
+## 📘 Overview
+This **Expense Tracker** is a full-stack Java-based application that helps users monitor and manage their daily expenses.  
+It allows users to record, categorize, and visualize spending patterns through **interactive pie charts**, making financial tracking simple and intuitive.
 
-This **Full Stack Expense Tracker** is a comprehensive application designed to help users monitor their income and expenses efficiently. Built using **Spring Boot** for the backend, **JavaFX** for the desktop interface, and **MySQL** for database management, this application offers a seamless experience for tracking financial transactions.
+---
 
-## 🖼️ Key Features
+## ✨ Features
+- 🧾 **Add / Edit / Delete Transactions** — Manage your income and expenses easily.  
+- 📊 **Pie Chart Visualization** — View expense distribution by category using dynamic pie charts
+- 💾 **Data Storage** — Uses a MySQL database to store all transactions securely.  
+- 🔐 **User-Friendly Interface** — Built with JavaFX for a clean and responsive desktop experience.  
+- ⚙️ **Modular Backend** — Built with Java and integrates seamlessly with the database.
 
-- **User Authentication**: Secure login and registration system.
-- **Transaction Management**: Add, edit, and delete income and expense records.
-- **Financial Overview**: Visual representation of financial data using pie charts.
-- **Data Persistence**: All data is stored in a MySQL database for reliability.
+---
 
+## 🛠️ Tech Stack
+| Component | Technology |
+|------------|-------------|
+| **Frontend** | JavaFX |
+| **Backend** | Java / Spring Boot |
+| **Database** | MySQL |
+| **Charts** | JavaFX PieChart |
+| **Build Tool** | Maven |
 
-## 📊 Visual Representation
-
-Instead of traditional bar graphs, this application utilizes **pie charts** to provide a clear and intuitive visualization of financial data. The pie charts display:
-
-- **Income vs. Expenses**: A breakdown of total income and expenses.
-- **Monthly Distribution**: A percentage distribution of expenses across different months 
-
-## 🛠️ Technologies Used
-
-- **Backend**: Spring Boot
-- **Frontend**: JavaFX
-- **Database**: MySQL
-- **Visualization**: JavaFX Charts (PieChart)
-
+---
 
 ## 🌟 ScreenShots
 
@@ -41,4 +40,18 @@ Instead of traditional bar graphs, this application utilizes **pie charts** to p
 - _**PieChart View**_
 <img width="854" height="732" alt="image" src="https://github.com/user-attachments/assets/d6549181-cef4-4012-a006-244a1d1698e3" />
 
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome!
+If you'd like to make improvements, please **fork** the repo and submit a **PR** with a clear description of your changes.
+
+---
+
+## 🧑‍💻 Author
+
+GitHub: [@Sal-1807](https://github.com/Sal-1807)
+
+---
 
